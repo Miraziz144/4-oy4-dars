@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Son Generator</title>
+    <script type="text/javascript">
+        function generateRandomNumber() {
+            var randomNumber = Math.floor(Math.random() * 100) + 1;
+            document.getElementById("randomNumber").innerText = randomNumber;
+        }
+
+        randomNumber.style.color = 'wihite'
+    </script>
+</head>
+<body onload="generateRandomNumber()">
+    <h1><span id="randomNumber"></span></h1>
+</body>
+</html>
